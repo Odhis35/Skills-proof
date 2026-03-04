@@ -13,7 +13,12 @@ EnterBtn.addEventListener("click", function()
 function myFunction(){
     let listItems = " "
     for(i=0; i<myList.length; i++){
-        listItems += "<li>" + myList[i] + "</li>" 
+        listItems += `
+        <li>
+            <a target = '_blank' href ='${myList[i]}'>
+                ${myList[i]}
+             </a>
+        </li>`
     }
     UlEl.innerHTML = listItems
 }
