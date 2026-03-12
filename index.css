@@ -20,6 +20,10 @@ button{
     border: none;
     font-weight: bold;
 }
+#delete-btn{
+    background-color: blue;
+    color: #ffd700;
+}
 ul{
     list-style: none;
     padding-left: 0;

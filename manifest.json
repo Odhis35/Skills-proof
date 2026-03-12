@@ -7,5 +7,6 @@
         "default_title": "Open Booster",
         "default_popup": "index.html",
         "default_icon": "Donato logo.png"
-    }
+    },
+    "permissions": ["tabs"]
 }
